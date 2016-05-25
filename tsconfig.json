@@ -12,7 +12,7 @@
     "outFile": "bundle.js"
   },
   "filesGlob": [
-    "./dev/**/*.ts",
+    "./assets/**/*.ts",
     "!./node_modules/**/*.ts"
   ],
   "exclude": [
@@ -21,5 +21,24 @@
   "atom": {
     "rewriteTsconfig": true
   },
-  "files": []
+  "files": [
+    "./assets/app/app.component.ts",
+    "./assets/app/auth/auth.service.ts",
+    "./assets/app/auth/authentication.component.ts",
+    "./assets/app/auth/logout.component.ts",
+    "./assets/app/auth/signin.component.ts",
+    "./assets/app/auth/signup.component.ts",
+    "./assets/app/auth/user.ts",
+    "./assets/app/boot.ts",
+    "./assets/app/errors/error.component.ts",
+    "./assets/app/errors/error.service.ts",
+    "./assets/app/errors/error.ts",
+    "./assets/app/header.component.ts",
+    "./assets/app/messages/message-input.component.ts",
+    "./assets/app/messages/message-list.component.ts",
+    "./assets/app/messages/message.component.ts",
+    "./assets/app/messages/message.service.ts",
+    "./assets/app/messages/message.ts",
+    "./assets/app/messages/messages.component.ts"
+  ]
 }
